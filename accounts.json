@@ -1,0 +1,90 @@
+{
+  "ziad": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1213,
+    "wins": 2,
+    "losses": 1,
+    "draws": 1,
+    "credits": 120
+  },
+  "marzouk": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1170,
+    "wins": 0,
+    "losses": 2,
+    "draws": 1,
+    "credits": 100
+  },
+  "jj": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1255,
+    "wins": 40,
+    "losses": 34,
+    "draws": 0,
+    "credits": 500
+  },
+  "zz": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1203,
+    "wins": 35,
+    "losses": 37,
+    "draws": 0,
+    "credits": 450
+  },
+  "hhhhhhhhhhhhhh": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1200,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "credits": 100
+  },
+  "xx": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1200,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "credits": 100
+  },
+  "zoo": {
+    "password": "1234",
+    "elo": 1200,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "credits": 100
+  },
+  "ji": {
+    "password": "1234",
+    "elo": 1200,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "credits": 100
+  },
+  "yi": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1200
+  },
+  "oo": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "elo": 1200
+  },
+  "Douha": {
+    "password": "04adaa0008f3d9218c94221091b00bf203a42b41c09b2ef67963aebdc393436a",
+    "elo": 1175,
+    "wins": 0,
+    "losses": 2,
+    "draws": 0,
+    "credits": 100
+  },
+  "\u5de9": {
+    "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "elo": 1184,
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "credits": 100
+  }
+}
