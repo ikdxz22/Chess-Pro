@@ -465,7 +465,7 @@ Server(host="0.0.0.0", port=12345).run()
 
 Change `host` to `"127.0.0.1"` to accept local connections only.
 
-### Client (`chess_pro.py`)
+### Client (`client.py`)
 
 ```python
 # Stockfish think time (seconds per move) — lower = faster but weaker
