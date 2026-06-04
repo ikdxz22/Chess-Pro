@@ -357,8 +357,8 @@ Click **🔊 MUTE** during a game to silence everything. Click **🔇 UNMUTE** t
 ```
 chess-pro/
 │
-├── chess_pro.py          # Main game client (PyQt6)
-├── chess_server.py       # TCP game server (stdlib only)
+├── client.py          # Main game client (PyQt6)
+├── server.py       # TCP game server (stdlib only)
 │
 ├── accounts.json         # Player accounts — auto-created by the server
 ├── session.json          # Local login session — auto-created by the client
@@ -502,17 +502,17 @@ Make sure all 12 piece PNG files (`w_pawn.png`, `b_pawn.png`, etc.) are in the *
 - Try `127.0.0.1:12345` if the server is running on the same machine.
 
 ### Server port already in use
-Another process is using port 12345. Either stop that process or change the port in both `chess_server.py` and use the new port when connecting.
+Another process is using port 12345. Either stop that process or change the port in both `server.py` and use the new port when connecting.
 
 ### Stockfish not detected
 - Confirm the binary is named exactly `stockfish` (Linux/macOS) or `stockfish.exe` (Windows).
-- Try placing it in a `stockfish/` subfolder next to `chess_pro.py`.
+- Try placing it in a `stockfish/` subfolder next to `client.py`.
 - Run `which stockfish` (macOS/Linux) or `where stockfish` (Windows) to check if it's on your PATH.
 
 ### Board looks blurry on a 4K / HiDPI display (Windows)
 This is usually caused by DPI awareness not being set before Qt initialises. The app attempts to set per-monitor DPI awareness automatically. If it still looks blurry, try running:
 ```bash
-python chess_pro.py
+python client.py
 ```
 from a terminal that was launched with "Run as administrator", or check your Windows display scaling settings.
 
