@@ -7,7 +7,6 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Screenshots](#screenshots)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
