@@ -456,7 +456,7 @@ The client and server communicate over a plain-text, newline-delimited TCP proto
 
 Most settings are hardcoded constants at the top of each file. Here are the ones you're most likely to want to change:
 
-### Server (`chess_server.py`)
+### Server (`server.py`)
 
 ```python
 # Bottom of the file
