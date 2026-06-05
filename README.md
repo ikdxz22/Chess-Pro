@@ -91,7 +91,7 @@ You can play it completely offline (two players on the same machine, or against 
 | python-chess | 1.9 + | Chess logic, move generation, FEN |
 | Stockfish *(optional)* | any recent | Hard AI engine |
 
-> The server (`chess_server.py`) has **no third-party dependencies** — it uses only the Python standard library.
+> The server (`server.py`) has **no third-party dependencies** — it uses only the Python standard library.
 
 ---
 
@@ -124,11 +124,11 @@ pip install PyQt6 python-chess
 
 ### 4. Add asset files
 
-The client expects these files alongside `chess_pro.py`:
+The client expects these files alongside `client.py`:
 
 ```
-chess_pro.py
-chess_server.py
+client.py
+server.py
 
 # Piece images (PNG, any size — recommend 128×128 or larger)
 w_pawn.png    b_pawn.png
