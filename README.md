@@ -162,7 +162,7 @@ Piece images can be sourced from any free chess piece set (e.g. [Wikimedia Commo
 ## Running the Game
 
 ```bash
-python chess_pro.py
+python client.py
 ```
 
 The window opens in full-screen mode. Press **F11** at any time to switch between full-screen and windowed.
@@ -174,7 +174,7 @@ The window opens in full-screen mode. Press **F11** at any time to switch betwee
 The server is a single-file TCP server with no dependencies beyond the standard library.
 
 ```bash
-python chess_server.py
+python server.py
 ```
 
 By default it listens on **0.0.0.0:12345**. To change the host or port, edit the bottom of `chess_server.py`:
